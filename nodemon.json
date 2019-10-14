@@ -1,9 +1,7 @@
 {
   "watch": [
-    "server.js",
-    "views/**/*"
+    "server.js"
   ],
-  "ext": "js,jsx",
   "env": {
     "NODE_ENV": "development"
   }
