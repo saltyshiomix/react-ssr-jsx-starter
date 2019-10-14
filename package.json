@@ -6,9 +6,16 @@
   "repository": "git@github.com:saltyshiomix/react-ssr-starter.git",
   "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
   "dependencies": {
     "@react-ssr/express": "^0.2.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3"
   }
 }
