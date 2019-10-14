@@ -14,3 +14,7 @@ $ yarn dev (or `npm run dev`)
 # production mode
 $ yarn start (or `npm start`)
 ```
+
+## Related
+
+[saltyshiomix/react-ssr](https://github.com/saltyshiomix/react-ssr) - React SSR as a view template engine
