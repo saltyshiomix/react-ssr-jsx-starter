@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "server.js",
+    "views/**/*"
+  ],
+  "ext": "js,jsx",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
