@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@react-ssr/express": "^0.6.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   },
   "devDependencies": {
     "cross-env": "^6.0.3",
