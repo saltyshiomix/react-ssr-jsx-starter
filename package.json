@@ -1,9 +1,8 @@
 {
   "private": true,
-  "name": "react-ssr-starter",
+  "name": "react-ssr-jsx-starter",
   "version": "1.0.0",
-  "main": "server.js",
-  "repository": "git@github.com:saltyshiomix/react-ssr-starter.git",
+  "repository": "git@github.com:saltyshiomix/react-ssr-jsx-starter.git",
   "author": "Shiono Yoshihide <shiono.yoshihide@gmail.com>",
   "license": "MIT",
   "scripts": {
