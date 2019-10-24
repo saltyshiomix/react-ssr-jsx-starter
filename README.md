@@ -4,8 +4,8 @@ This repository is the example of [@react-ssr/express](https://npm.im/@react-ssr
 
 ```zsh
 # installation
-$ git clone https://github.com/saltyshiomix/react-ssr-starter.git
-$ cd react-ssr-starter
+$ git clone https://github.com/saltyshiomix/react-ssr-jsx-starter.git
+$ cd react-ssr-jsx-starter
 $ yarn (or `npm install`)
 
 # development mode
