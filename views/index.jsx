@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Head from '@react-ssr/express/head';
 import { Layout } from '../components';
 
 const Index = (props) => {
@@ -12,10 +13,10 @@ const Index = (props) => {
   const onClick = () => setMessage('This is a react-ssr!');
 
   return (
-    <Layout
-      title="An example of @react-ssr/express"
-      script={script}
-    >
+    <Layout script={script}>
+      <Head>
+        <title>An example of @react-ssr/express</title>
+      </Head>
       <p>Hello {user.name}!</p>
       <button onClick={onClick}>Click Me</button>
       <p>Message from state: {message}</p>
