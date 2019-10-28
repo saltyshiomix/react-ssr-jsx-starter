@@ -8,7 +8,9 @@ export const Layout = (props) => {
 
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <title>react-ssr-jsx-starter</title>
+      </head>
       <body>
         {children}
         <ReactSsrScript script={script} />
