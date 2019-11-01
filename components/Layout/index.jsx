@@ -1,19 +1,12 @@
-import ReactSsrScript from '@react-ssr/express/script';
-
 export const Layout = (props) => {
-  const {
-    children,
-    script,
-  } = props;
-
   return (
     <html lang="en">
       <head>
         <title>react-ssr-jsx-starter</title>
+        <meta charSet="utf-8" />
       </head>
       <body>
-        {children}
-        <ReactSsrScript script={script} />
+        {props.children}
       </body>
     </html>
   );
