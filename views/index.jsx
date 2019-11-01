@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Head from '@react-ssr/express/head';
-import { Layout } from '../components';
+import { Layout } from '../components/Layout';
 
 const Index = (props) => {
   const {
