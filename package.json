@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node --max-http-header-size 512000 server.js"
   },
   "dependencies": {
     "@react-ssr/express": "^0.14.0",
