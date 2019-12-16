@@ -3,7 +3,7 @@
   "name": "react-ssr-jsx-starter",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "cross-env NODE_ENV=production node --max-http-header-size 512000 server.js"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@react-ssr/core": "^0.18.1",
